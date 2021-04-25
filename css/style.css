@@ -597,10 +597,10 @@ header {
 
 .closesignup {
   position: absolute;
-  top: -5%;
-  left: 84%;
+  top: -4%;
+  left: 89%;
   right: 2rem;
-  font-size: 5rem;
+  font-size: 3rem;
   color: #333;
   cursor: pointer;
   border: none;

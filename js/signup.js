@@ -1,7 +1,7 @@
 const modal = document.querySelector(".signup");
 const overlay = document.querySelector(".overlay");
 const btnClose = document.querySelector(".closesignup");
-const btnOpenModal = document.querySelector(".signupbtn");
+const btnOpenModal = document.querySelectorAll(".signupbtn");
 
 const openModal = function () {
   modal.classList.remove("hidden");
