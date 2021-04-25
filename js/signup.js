@@ -1,7 +1,7 @@
-const modal = document.querySelector(".foodquiz");
+const modal = document.querySelector(".signup");
 const overlay = document.querySelector(".overlay");
-const btnClose = document.querySelector(".closequiz");
-const btnOpenModal = document.querySelectorAll(".quiz");
+const btnClose = document.querySelector(".closesignup");
+const btnOpenModal = document.querySelector(".signupbtn");
 
 const openModal = function () {
   modal.classList.remove("hidden");
@@ -13,9 +13,7 @@ const closeModal = function () {
   overlay.classList.add("hidden");
 };
 
-for (let i = 0; i < btnOpenModal.length; i++)
-  btnOpenModal[i].addEventListener("click", openModal);
-
+btnOpenModal.addEventListener("click", openModal);
 btnClose.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
 
