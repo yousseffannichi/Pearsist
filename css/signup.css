@@ -1,184 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-/* reset */
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-dl,
-dt,
-dd,
-ol,
-nav ul,
-nav li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-ol,
-ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-/* start editing from here */
-a {
-  text-decoration: none;
-}
-.txt-rt {
-  text-align: right;
-} /* text align right */
-.txt-lt {
-  text-align: left;
-} /* text align left */
-.txt-center {
-  text-align: center;
-} /* text align center */
-.float-rt {
-  float: right;
-} /* float right */
-.float-lt {
-  float: left;
-} /* float left */
-.clear {
-  clear: both;
-} /* clear float */
-.pos-relative {
-  position: relative;
-} /* Position Relative */
-.pos-absolute {
-  position: absolute;
-} /* Position Absolute */
-.vertical-base {
-  vertical-align: baseline;
-} /* vertical align baseline */
-.vertical-top {
-  vertical-align: top;
-} /* vertical align top */
-nav.vertical ul li {
-  display: block;
-} /* vertical menu */
-nav.horizontal ul li {
-  display: inline-block;
-} /* horizontal menu */
-img {
-  max-width: 100%;
-}
-/*end reset*/
-/****-----start-body----****/
-body {
-  background: url(../images/bg-3.png);
-  font-family: "Open Sans", sans-serif;
-}
-.wrap {
-  margin: 0 auto;
-  width: 80%;
-}
 body a,
 form li,
 input[type="submit"],
@@ -192,8 +11,8 @@ input[type="text"],
 }
 .login-form {
   background: #fff;
-  min-height: 670px;
-  width: 30%;
+  height: 370px;
+  width: 90%;
   margin: 9% auto 4% auto;
   position: relative;
   box-shadow: inset 0px 0px 10px 0px #ababab, -1px 1px 17px 7px #0f0000;
@@ -201,18 +20,7 @@ input[type="text"],
   -moz-box-shadow: inset 0px 0px 10px 0px #ababab, -1px 1px 17px 7px #0f0000;
   -o-box-shadow: inset 0px 0px 10px 0px #ababab, -1px 1px 17px 7px #0f0000;
 }
-.head {
-  background: url(../images/branded-colors.png) repeat;
-  height: 12px;
-  position: absolute;
-  top: -2%;
-  left: 0%;
-  width: 100%;
-  margin: 0 auto;
-}
-.head img {
-  width: 100%;
-}
+
 .head-info h1 {
   padding: 5px;
   text-align: center;
@@ -257,7 +65,7 @@ form li {
   background: none;
 }
 .icon {
-  background: url(../images/icons.png) no-repeat 0px 0px;
+  background: url(images/icons.png) no-repeat 0px 0px;
   height: 16px;
   width: 20px;
   display: block;
@@ -265,17 +73,17 @@ form li {
   margin: 18px 0px 0px 12px;
 }
 .user {
-  background: url(../images/icons.png) no-repeat -4px -6px;
+  background: url(images/icons.png) no-repeat -4px -6px;
 }
 .mail {
-  background: url(../images/icons.png) no-repeat -26px -6px;
+  background: url(images/icons.png) no-repeat -26px -6px;
 }
 .lock {
-  background: url(../images/icons.png) no-repeat -49px -6px;
+  background: url(images/icons.png) no-repeat -49px -6px;
 }
 input[type="text"],
 input[type="password"] {
-  width: 80%;
+  width: 30%;
   padding: 1em 0em 1em 0.5em;
   color: #c9c9c9;
   font-size: 18px;
@@ -330,6 +138,7 @@ ul.facebook:hover {
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
   -ms-border-radius: 5px;
+  border-radius: 4px;
   transition: 0.1s all;
   -webkit-transition: 0.1s all;
   -moz-transition: 0.1s all;
@@ -425,6 +234,7 @@ ul.linkedIn:hover {
   margin-top: 1em;
   padding: 0 28px 0 28px;
 }
+
 /*--thank-you--*/
 .thank-you {
   background: #fff;

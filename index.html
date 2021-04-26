@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/signup.css" type="text/css" media="all">
 <script type="text/javascript" src="js/jquery-1.6.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/tms-0.3.js"></script>
@@ -31,10 +32,62 @@
 
     <div class="signup hidden">
       <button class="closesignup">&times;</button>
-      <h1>Create an account today</h1>
-      <p>
-        create an account to be able to post farms and sell your produce
-      </p>
+      <script>$(document).ready(function(c) {
+	$('.close').on('click', function(c){
+		$('.login-form').fadeOut('slow', function(c){
+	  		$('.login-form').remove();
+		});
+	});	  
+});
+</script>
+ <!--SIGN UP-->
+		<div class="login-form">
+			<div class="close"> </div>
+					<div class="head">
+					</div>
+					<div class="head-info">
+						<h1>SIGN UP</h1>
+						<h2>Hello and Welcome! Tell us a bit about you</h2>
+					</div>
+				<form>
+					<li>
+						<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" ><a href="#" class=" icon user"></a>
+					</li>
+					<li>
+						<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" ><a href="#" class=" icon mail"></a>
+					</li>
+					<li>
+						<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}"><a href="#" class=" icon lock"></a>
+					</li>
+					<div class="p-container">
+								<input type="submit" onclick="myFunction()" value="SIGN UP" >
+							<div class="clear"> </div>
+					</div>
+				</form>
+				<div class="social-icons">
+							<div class="but-bottom">
+							<a href="#" class="account"><p>Already have an account?</p></a>
+							<a href="#" class="trouble"><p>Trouble signing in?</p></a><div class="clear"> </div></div>
+							<a href="#" class="social-account"><h3>or sign in with social account</h3></a>
+							<a href="#"><ul class="facebook">
+								<li><img src="images/fb.png" />Facebook</li>
+							</ul></a>
+							<a href="#"><ul class="twitter">
+								<li><img src="images/tw.png" />Twitter</li>
+							</ul></a>
+							<div class="clear"> </div>
+				</div>
+				<div class="social-icons-1">
+							<a href="#"><ul class="google-plus">
+								<li><img src="images/gp.png" />Google +</li>
+							</ul></a>
+							<a href="#"><ul class="linkedIn">
+								<li><img src="images/ln.png" />LinkedIn</li>
+							</ul></a>
+							<div class="clear"> </div>
+				</div>
+			</div>
+ <!--/SIGN UP-->
     </div>
     <div class="overlay hidden"></div>
 <script type="text/javascript" src="js/signup.js"></script>
