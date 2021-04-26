@@ -538,8 +538,8 @@ header {
   position: relative;
 }
 
-::placeholder {
-  color: #1ac6ff;
+.text ::placeholder {
+  color: black;
 }
 .search-container input[type="text"] {
   text-align: center;
@@ -591,6 +591,8 @@ header {
     border: 1px solid #ccc;
   }
 }
+
+/* // Sign Up Styling with the modal window: */
 
 .closesignup {
   position: absolute;
@@ -672,6 +674,58 @@ header {
 
 .submitform[type="submit"]:hover {
   background-color: rgb(163, 77, 68);
+  cursor: pointer;
+}
+
+.haveaccount p {
+  margin: 10px 0px 0px 20px;
+}
+
+/* // The sign in window with the modal styling: */
+
+.closesignin {
+  position: absolute;
+  top: -4%;
+  left: 89%;
+  right: 2rem;
+  font-size: 3rem;
+  color: #333;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.signin {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 29%;
+  height: 48%;
+  background-color: rgb(243, 243, 243);
+  padding: 40px 1px 1px 1px;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  opacity: 0.85;
+}
+
+.signi {
+  padding-left: 120px;
+  color: rgb(78, 50, 50);
+  line-height: 0px;
+}
+
+.closesignin2 {
+  width: 155px;
+  background-color: rgb(23, 232, 240);
+  height: 40px;
+  margin-top: 0px 0px 0px 0px;
+  border-radius: 5px;
+}
+
+.closesignin2:hover {
+  background-color: rgb(21, 104, 107);
   cursor: pointer;
 }
 
