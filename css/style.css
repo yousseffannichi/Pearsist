@@ -640,6 +640,7 @@ header {
 
 .signupform {
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .text[type="text"],
