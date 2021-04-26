@@ -61,7 +61,7 @@ input[type="text"],
   background: #fff;
   height: 570px;
   width: 30%;
-  margin: 9% auto 4% auto;
+  margin: auto;
   position: relative;
   box-shadow: inset 0px 0px 10px 0px #ababab, -1px 1px 17px 7px #0f0000;
   -webkit-box-shadow: inset 0px 0px 10px 0px #ababab, -1px 1px 17px 7px #0f0000;
