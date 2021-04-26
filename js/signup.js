@@ -1,6 +1,7 @@
 const modal = document.querySelector(".signup");
 const overlay = document.querySelector(".overlay");
 const btnClose = document.querySelector(".closesignup");
+const btnClose2 = document.querySelector(".closesignup2");
 const btnOpenModal = document.querySelectorAll(".signupbtn");
 
 const openModal = function () {
@@ -17,6 +18,7 @@ for (let i = 0; i < btnOpenModal.length; i++)
   btnOpenModal[i].addEventListener("click", openModal);
 
 btnClose.addEventListener("click", closeModal);
+btnClose2.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
 
 document.addEventListener("keydown", function (e) {

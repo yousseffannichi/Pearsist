@@ -650,28 +650,23 @@ header {
 }
 
 .submitform {
-  width: 120px;
+  width: 155px;
   background-color: salmon;
   height: 40px;
-  margin: 5px 0px 0px 20px;
+  margin: 0px 10px 0px 20px;
   border-radius: 5px;
 }
 
 .closesignup2 {
-  width: 120px;
+  width: 155px;
   background-color: rgb(23, 232, 240);
   height: 40px;
-  margin-top: 5px;
+  margin-top: 0px 0px 0px 0px;
   border-radius: 5px;
 }
 
-.submitform :hover {
-  background-color: rgb(201, 105, 94);
-  cursor: pointer;
-}
-
-.closesignup2 :hover {
-  background-color: green;
+.haveaccount p {
+  margin: 10px 0px 0px 20px;
 }
 
 h4 {
