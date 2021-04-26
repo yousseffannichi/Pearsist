@@ -665,6 +665,16 @@ header {
   border-radius: 5px;
 }
 
+.closesignup2:hover {
+  background-color: rgb(21, 104, 107);
+  cursor: pointer;
+}
+
+.submitform[type="submit"]:hover {
+  background-color: rgb(163, 77, 68);
+  cursor: pointer;
+}
+
 .haveaccount p {
   margin: 10px 0px 0px 20px;
 }
