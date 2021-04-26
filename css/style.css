@@ -640,8 +640,7 @@ header {
   line-height: 0px;
 }
 .text[type="text"],
-.password[type="password"],
-.submitform {
+.password[type="password"] {
   display: block;
   padding: 15px;
   margin: 5px 0 0px 5px;
@@ -651,7 +650,16 @@ header {
 }
 
 .submitform {
+  width: 120px;
   background-color: salmon;
+  height: 40px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.closesignup2 {
+  width: 120px;
+  background-color: rgb(23, 232, 240);
   height: 40px;
   margin-top: 5px;
   border-radius: 5px;
