@@ -643,7 +643,7 @@ header {
 .password[type="password"] {
   display: block;
   padding: 15px;
-  margin: 5px 0 0px 5px;
+  margin: 5px 0 0px 20px;
   background: #f1f1f1;
   border: solid 1px;
   width: 80%;
@@ -653,7 +653,7 @@ header {
   width: 120px;
   background-color: salmon;
   height: 40px;
-  margin-top: 5px;
+  margin: 5px 0px 0px 20px;
   border-radius: 5px;
 }
 
@@ -668,6 +668,10 @@ header {
 .submitform :hover {
   background-color: rgb(201, 105, 94);
   cursor: pointer;
+}
+
+.closesignup2 :hover {
+  background-color: green;
 }
 
 h4 {
