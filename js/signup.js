@@ -1,28 +1,28 @@
-const modal = document.querySelector(".signup");
-const overlay = document.querySelector(".overlay");
-const btnClose = document.querySelector(".closesignup");
-const btnClose2 = document.querySelector(".closesignup2");
-const btnOpenModal = document.querySelectorAll(".signupbtn");
+const modal2 = document.querySelector(".signup");
+const overlay2 = document.querySelector(".overlay2");
+const btnClose2 = document.querySelector(".closesignup");
+const btnClose22 = document.querySelector(".closesignup2");
+const btnOpenModal2 = document.querySelectorAll(".signupbtn");
 
-const openModal = function () {
-  modal.classList.remove("hidden");
-  overlay.classList.remove("hidden");
+const openModal2 = function () {
+  modal2.classList.remove("hidden");
+  overlay2.classList.remove("hidden");
 };
 
-const closeModal = function () {
-  modal.classList.add("hidden");
-  overlay.classList.add("hidden");
+const closeModal2 = function () {
+  modal2.classList.add("hidden");
+  overlay2.classList.add("hidden");
 };
 
-for (let i = 0; i < btnOpenModal.length; i++)
-  btnOpenModal[i].addEventListener("click", openModal);
+for (let i = 0; i < btnOpenModal2.length; i++)
+  btnOpenModal2[i].addEventListener("click", openModal2);
 
-btnClose.addEventListener("click", closeModal);
-btnClose2.addEventListener("click", closeModal);
-overlay.addEventListener("click", closeModal);
+btnClose2.addEventListener("click", closeModal2);
+btnClose22.addEventListener("click", closeModal2);
+overlay2.addEventListener("click", closeModal2);
 
 document.addEventListener("keydown", function (e) {
-  if (e.key === "Escape" && !modal.classList.contains("hidden")) {
+  if (e.key === "Escape" && !modal2.classList.contains("hidden")) {
     closeModal2();
   }
 });
