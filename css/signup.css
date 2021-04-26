@@ -1,4 +1,52 @@
-body a,
+a {
+  text-decoration: none;
+}
+.txt-rt {
+  text-align: right;
+} /* text align right */
+.txt-lt {
+  text-align: left;
+} /* text align left */
+.txt-center {
+  text-align: center;
+} /* text align center */
+.float-rt {
+  float: right;
+} /* float right */
+.float-lt {
+  float: left;
+} /* float left */
+.clear {
+  clear: both;
+} /* clear float */
+.pos-relative {
+  position: relative;
+} /* Position Relative */
+.pos-absolute {
+  position: absolute;
+} /* Position Absolute */
+.vertical-base {
+  vertical-align: baseline;
+} /* vertical align baseline */
+.vertical-top {
+  vertical-align: top;
+} /* vertical align top */
+nav.vertical ul li {
+  display: block;
+} /* vertical menu */
+nav.horizontal ul li {
+  display: inline-block;
+} /* horizontal menu */
+img {
+  max-width: 100%;
+}
+/*end reset*/
+/****-----start-body----****/
+.wrap {
+  margin: 0 auto;
+  width: 80%;
+}
+
 form li,
 input[type="submit"],
 input[type="text"],
@@ -11,8 +59,8 @@ input[type="text"],
 }
 .login-form {
   background: #fff;
-  height: 370px;
-  width: 90%;
+  height: 570px;
+  width: 30%;
   margin: 9% auto 4% auto;
   position: relative;
   box-shadow: inset 0px 0px 10px 0px #ababab, -1px 1px 17px 7px #0f0000;
@@ -20,21 +68,19 @@ input[type="text"],
   -moz-box-shadow: inset 0px 0px 10px 0px #ababab, -1px 1px 17px 7px #0f0000;
   -o-box-shadow: inset 0px 0px 10px 0px #ababab, -1px 1px 17px 7px #0f0000;
 }
+.head {
+  background: url(../images/branded-colors.png) repeat;
+  height: 12px;
+  position: absolute;
+  top: -2%;
+  left: 0%;
+  width: 100%;
+  margin: 0 auto;
+}
+.head img {
+  width: 100%;
+}
 
-.head-info h1 {
-  padding: 5px;
-  text-align: center;
-  font-weight: 600;
-  font-size: 2em;
-  color: #fff;
-  background: #2980b9;
-}
-.head-info h2 {
-  text-align: center;
-  font-size: 1em;
-  color: #999;
-  padding: 1em 0 1em 0;
-}
 form {
   padding: 0% 5% 0%;
 }
@@ -60,12 +106,12 @@ a.social-account h3 {
 form li {
   border: 1px solid #ebebeb;
   list-style: none;
-  margin-bottom: 25px;
-  width: 100%;
+  margin-bottom: 10px;
+  width: 70%;
   background: none;
 }
 .icon {
-  background: url(images/icons.png) no-repeat 0px 0px;
+  background: url(../images/icons.png) no-repeat 0px 0px;
   height: 16px;
   width: 20px;
   display: block;
@@ -73,17 +119,17 @@ form li {
   margin: 18px 0px 0px 12px;
 }
 .user {
-  background: url(images/icons.png) no-repeat -4px -6px;
+  background: url(../images/icons.png) no-repeat -4px -6px;
 }
 .mail {
-  background: url(images/icons.png) no-repeat -26px -6px;
+  background: url(../images/icons.png) no-repeat -26px -6px;
 }
 .lock {
-  background: url(images/icons.png) no-repeat -49px -6px;
+  background: url(../images/icons.png) no-repeat -49px -6px;
 }
 input[type="text"],
 input[type="password"] {
-  width: 30%;
+  width: 80%;
   padding: 1em 0em 1em 0.5em;
   color: #c9c9c9;
   font-size: 18px;
@@ -138,7 +184,6 @@ ul.facebook:hover {
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
   -ms-border-radius: 5px;
-  border-radius: 4px;
   transition: 0.1s all;
   -webkit-transition: 0.1s all;
   -moz-transition: 0.1s all;
@@ -234,7 +279,6 @@ ul.linkedIn:hover {
   margin-top: 1em;
   padding: 0 28px 0 28px;
 }
-
 /*--thank-you--*/
 .thank-you {
   background: #fff;
