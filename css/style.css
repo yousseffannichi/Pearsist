@@ -619,11 +619,12 @@ header {
   transform: translate(-50%, -50%);
   width: 15%;
   height: 55%;
-  background-color: white;
-  padding: 6rem;
+  background-color: rgb(243, 243, 243);
+  padding: 5rem;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
+  opacity: 0.8;
 }
 
 .overlay {
@@ -635,6 +636,31 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
+}
+
+.signupform {
+  margin: 0 auto;
+}
+
+.text[type="text"],
+.password[type="password"] {
+  padding: 15px;
+  margin: 5px 0 0px 0;
+  background: #f1f1f1;
+  border: solid 1px;
+}
+
+.submitform {
+  background-color: salmon;
+  height: 40px;
+  float: right;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.submitform :hover {
+  background-color: rgb(226, 84, 68);
+  cursor: pointer;
 }
 
 h4 {
