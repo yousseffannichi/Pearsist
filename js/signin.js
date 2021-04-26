@@ -1,5 +1,5 @@
 const modal = document.querySelector(".signin");
-const overlay = document.querySelector(".overlay2");
+const overlay = document.querySelector(".overlay");
 const btnClose = document.querySelector(".closesignin");
 const btnClose2 = document.querySelector(".closesignin2");
 const btnOpenModal = document.querySelectorAll(".signinbtn");
@@ -9,7 +9,7 @@ const openModal = function () {
   overlay.classList.remove("hidden");
 };
 
-const closeModal2 = function () {
+const closeModal = function () {
   modal.classList.add("hidden");
   overlay.classList.add("hidden");
 };
@@ -19,7 +19,7 @@ for (let i = 0; i < btnOpenModal.length; i++)
 
 btnClose.addEventListener("click", closeModal);
 btnClose2.addEventListener("click", closeModal);
-overlay2.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
 
 document.addEventListener("keydown", function (e) {
   if (e.key === "Escape" && !modal.classList.contains("hidden")) {
