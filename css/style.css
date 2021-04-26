@@ -602,7 +602,6 @@ header {
   right: 2rem;
   font-size: 3rem;
   color: #333;
-  cursor: pointer;
   border: none;
   background: none;
   cursor: pointer;
@@ -636,11 +635,6 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
-}
-
-.signupform {
-  margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .text[type="text"],
