@@ -44,10 +44,21 @@
 
     <div class="signup hidden">
       <button class="closesignup">&times;</button>
-      <h1>Create an account today</h1>
-      <p>
-        create an account to be able to post farms and sell your produce
-      </p>
+       <div class="signupform">
+      <strong><p style="color:rgb(78, 50, 50); line-height: 0px;">Create an account today</p></strong>
+      <!-- <form class="signupform"> -->
+						<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" >
+
+						<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" >
+
+						<input type="password" class="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+								<input  class="submitform" type="submit" value="SIGN UP" >
+						<div class="clear"></div>
+				<!-- </form> -->
+        	<a href="#" class="haveaccount" style="color:rgb(78, 50, 50);"><p>Already have an account?</p></a>
+					<a href="#" class="trouble" style="color:rgb(78, 50, 50);"><p>Trouble signing in?</p></a>
+          <div class="clear"> </div>
+          </div>
     </div>
     <div class="overlay hidden"></div>
 <script type="text/javascript" src="js/signup.js"></script>
