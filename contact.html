@@ -39,35 +39,38 @@
         <a class="signupbtn" style="float:right ">Sign in</a>
     </div>
 
-    
-<!-- QUIZ WINDOW -->
+  </head>
+   <div class="signin hidden">
+      <button class="closesignin">&times;</button>
+      <form class="signinform">
+      <strong><p class="signi" >Sign in to Pearsist!</p></strong>
+						<input type="text" class="text" placeholder="Name" onfocus="this.value = ''" >
+						<input type="password" class="password" placeholder="Password" onfocus="this.value = ''">
+            <a href="#" class="haveaccount" style="color:rgb(78, 50, 50);"><p>Trouble signing in? reset password</p></form></a>
+								<input  class="submitform" type="submit" value="SIGN IN" >
+                <input  class="closesignin2" type="button" value="CANCEL" >
+						<div class="clear"></div>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
 
     <div class="signup hidden">
       <button class="closesignup">&times;</button>
-       <div class="signupform">
-      <strong><p style="color:rgb(78, 50, 50); line-height: 0px;">Create an account today</p></strong>
-      <!-- <form class="signupform"> -->
-						<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" >
-
-						<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" >
-
-						<input type="password" class="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+      <form class="signupform">
+      <strong><p class="signp" >Create an account today!</p></strong>
+						<input type="text" class="text" placeholder="Name" onfocus="this.value = ''" >
+						<input type="text" class="text" placeholder="Email" onfocus="this.value = ''" >
+						<input type="password" class="password" placeholder="Password" onfocus="this.value = ''">
+            <input type="password" class="password" placeholder="Confirm Password" onload="this.value =''">
+            <a href="#" class="haveaccount" style="color:rgb(78, 50, 50);"><p>Already have an account? Sign in</p></form></a>
 								<input  class="submitform" type="submit" value="SIGN UP" >
+                <input  class="closesignup2" type="button" value="CANCEL" >
 						<div class="clear"></div>
-				<!-- </form> -->
-        	<a href="#" class="haveaccount" style="color:rgb(78, 50, 50);"><p>Already have an account?</p></a>
-					<a href="#" class="trouble" style="color:rgb(78, 50, 50);"><p>Trouble signing in?</p></a>
-          <div class="clear"> </div>
-          </div>
+      </form>
     </div>
     <div class="overlay hidden"></div>
-<script type="text/javascript" src="js/signup.js"></script>
+        <script type="text/javascript" src="js/signup.js"></script>
 
-
-
-    <!-- ________________________________________ -->
-
-  </head>
   <body id="page5">
     <div class="body1">
       <div class="main">

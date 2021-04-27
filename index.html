@@ -28,23 +28,38 @@
     </div>
 
 
-<!-- Sign upWINDOW -->
+</head>
+ <div class="signin hidden">
+      <button class="closesignin">&times;</button>
+      <form class="signinform">
+      <strong><p class="signi" >Sign in to Pearsist!</p></strong>
+						<input type="text" class="text" placeholder="Name" onfocus="this.value = ''" >
+						<input type="password" class="password" placeholder="Password" onfocus="this.value = ''">
+            <a href="#" class="haveaccount" style="color:rgb(78, 50, 50);"><p>Trouble signing in? reset password</p></form></a>
+								<input  class="submitform" type="submit" value="SIGN IN" >
+                <input  class="closesignin2" type="button" value="CANCEL" >
+						<div class="clear"></div>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
 
     <div class="signup hidden">
       <button class="closesignup">&times;</button>
-      <form>
-						<input type="text" class="text" value="Name">
-						<input type="text" class="text" value="Email">
-						<input type="password" value="Password">
-					<div class="submitform">
-								<input type="submit">
-					</div>
-				</form>
+      <form class="signupform">
+      <strong><p class="signp" >Create an account today!</p></strong>
+						<input type="text" class="text" placeholder="Name" onfocus="this.value = ''" >
+						<input type="text" class="text" placeholder="Email" onfocus="this.value = ''" >
+						<input type="password" class="password" placeholder="Password" onfocus="this.value = ''">
+            <input type="password" class="password" placeholder="Confirm Password" onload="this.value =''">
+            <a href="#" class="haveaccount" style="color:rgb(78, 50, 50);"><p>Already have an account? Sign in</p></form></a>
+								<input  class="submitform" type="submit" value="SIGN UP" >
+                <input  class="closesignup2" type="button" value="CANCEL" >
+						<div class="clear"></div>
+      </form>
     </div>
     <div class="overlay hidden"></div>
-<script type="text/javascript" src="js/signup.js"></script>
-    
-</head>
+        <script type="text/javascript" src="js/signup.js"></script>
+
 <body id="page1">
 <div class="about">
 <div class="aboutus">
