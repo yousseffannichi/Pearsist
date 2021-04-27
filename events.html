@@ -18,7 +18,7 @@
 <script type="text/javascript" src="js/tms_presets.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="js/map.js"></script>
+<script type="text/javascript" src="js/mapScript.js"></script>
 
 <!--[if lt IE 9]>
 <script type="text/javascript" src="js/html5.js"></script>
@@ -70,7 +70,7 @@
         <script type="text/javascript" src="js/signup.js"></script>
 
 
-<body id="page1" onload="init();" style="font-family: Mulish;">
+<body onload="init();" id="page1"  style="font-family: Mulish;">
 <div class="about" style=" background-image: url( images/Produce.jpg) ; background-size: 100% 100%;">
 <center><h2 class="headingfind"  style="margin-top: 190px; line-height: 0px;"><span>Browse farming events near where you live</span></h2>
 </center>
@@ -133,10 +133,6 @@
                 </p>
               </div>
             </section>
-          <!-- </div>
-        </div>
-        <div class="wrapper">
-          <div class="wrapper"> -->
             <section class="col1">
               <span
                 ><img class="farmimg"
@@ -187,6 +183,14 @@
             </section>
           </div>
         </div>
+      <section style="float: right;">
+      <div id="directions_panel"></div>
+    </section>
+
+    <section >
+      <div id="map_canvas"></div>
+      <h5 class="maptitle">Select a farm from on the map</h5>
+    </section>
       </article>
     </div>
 </div>
