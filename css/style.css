@@ -610,10 +610,6 @@ header {
   display: none;
 }
 
-.hidden2 {
-  display: none;
-}
-
 .signup {
   position: absolute;
   top: 50%;
@@ -630,17 +626,6 @@ header {
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(3px);
-  z-index: 5;
-}
-
-.overlay2 {
   position: absolute;
   top: 0;
   left: 0;
