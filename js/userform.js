@@ -36,4 +36,10 @@ function configureForClicks(
 }
 
 configureForClicks(".signin", ".closesignin", ".closesignin2", ".signinbtn");
+configureForClicks(
+  ".haveaccount",
+  ".closesignin",
+  ".closesignin2",
+  ".signinbtn"
+);
 configureForClicks(".signup", ".closesignup", ".closesignup2", ".signupbtn");
